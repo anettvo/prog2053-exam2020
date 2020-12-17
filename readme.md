@@ -8,7 +8,7 @@
 
 ## Oppgave - Web komponenter
 
-* ### Answers to the tasks are in oppgave3.html and eksamen.js + eksamen.html. 
+* #### Answers to the tasks are in oppgave3.html and eksamen.js + eksamen.html. 
 
 *Merk: det er ferdige PHP skript i oppgave/www/api for å hente og oppdatere informasjon.*
 

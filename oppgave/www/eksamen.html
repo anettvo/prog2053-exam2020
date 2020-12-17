@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Display and edit users</title>
+
+</head>
+
+<body onload="getAllUsers()">
+  <div class="container">
+    <div class="d-flex flex-row mt-4">
+      <div class="col col-md-5 bg-light pb-4">
+        <h3 class="pt-5 pl-2">All users</h3>
+        <div id="users"></div>
+      </div>
+    
+      <div class="col col-md-7 bg-light ml-5 pb-4">
+        <h3 class="pt-5 pl-2">Selected user</h3>
+        <div id="user" style="display: none;">
+          <form id="userForm" method="POST">
+            <div class="form-group pt-3 ml-5" style="width: 20rem;">
+              <label for="email">Email</label>
+              <input class="form-control" id="uname" name="uname" type="text" value="" required>
+              <input type="hidden" id="uid" name="uid" value="">
+            </div>
+            <div class="form-group pt-1 ml-5" style="width: 20rem;">
+              <label for="firstName">First Name</label>
+              <input class="form-control" id="firstName" name="firstName" type="text" value="" required>
+            </div>
+            <div class="form-group pt-1 ml-5" style="width: 20rem;">
+              <label for="lastName">Last Name</label>
+              <input class="form-control" id="lastName" name="lastName" type="text" value="" required>
+            </div>
+            <div class="form-group pt-1 ml-5" style="width: 20rem;">
+              <label for="oldpwd">Old Password</label>
+              <input type="password" class="form-control" id="oldpwd" name="oldpwd" type="text" value="">
+            </div>
+            <div class="form-group pt-1 ml-5" style="width: 20rem;">
+              <label for="newpwd">New Password</label>
+              <input type="password" class="form-control" id="pwd" name="pwd" type="text" value="">
+          </div>
+          <input type="submit" id="submitForm" name="editUser" class="btn btn-info mt-4 ml-2" value="Edit User"></input>
+        </form>
+      </div>
+    </div>
+  </div>
+<script src="js/eksamen.js" charset="utf-8"></script>
+</body>
+</html>

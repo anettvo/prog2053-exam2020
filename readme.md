@@ -1,6 +1,6 @@
 # PROG2053 eksamen v2020
 
-### CandidateID: 10021
+* ### CandidateID: 10021
  
 * Lag en FORK av dette repositoriet og gi meg leserettigheter (aland.a.mendoza@ntnu.no). Det som er i repositoriet på slutten av eksamen teller som din besvarelse.
 * Legg inn studentnummeret ditt øverst i readme.md fila.
@@ -8,7 +8,7 @@
 
 ## Oppgave - Web komponenter
 
-### Answers to the tasks are in oppgave3.html and eksamen.js + eksamen.html. 
+* ### Answers to the tasks are in oppgave3.html and eksamen.js + eksamen.html. 
 
 *Merk: det er ferdige PHP skript i oppgave/www/api for å hente og oppdatere informasjon.*
 
